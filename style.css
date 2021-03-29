@@ -169,13 +169,13 @@ body {
   left: 0;
   bottom: 60px;
   width: 42px;
-  height: 700px;
+  height: 70%;
   border-right: 3px solid var(--secondary);
 }
 
 .bottom-square-1 {
   left: 36.2px;
-  bottom: 750px;
+  bottom: calc(70% + 60px);
 }
 
 .bottom-square-2 {
