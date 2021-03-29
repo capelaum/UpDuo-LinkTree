@@ -46,6 +46,41 @@
     margin-top: 20px;
     font-size: 1rem;
   }
+
+  /* BOTTOM */
+
+  .bottom {
+    width: 20px;
+    height: 80px;
+  }
+  
+  .bottom-block-1 {
+    bottom: 310px;
+  }
+  
+  .bottom-block-2 {
+    bottom: 230px;
+  }
+  
+  .bottom-block-3 {
+    bottom: 150px;
+  }
+
+  .bottom-border {
+    bottom: 60px;
+    width: 22px;
+    height: 600px;
+  }
+  
+  .bottom-square-1 {
+    left: 16.2px;
+    bottom: 660px;
+  }
+  
+  .bottom-square-2 {
+    left: 16.2px;
+    bottom: 60px;
+  }
 }
 
 @media screen and (max-height: 800px) {
