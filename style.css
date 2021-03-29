@@ -27,12 +27,12 @@ body {
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-
   overflow: hidden;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -66,7 +66,7 @@ body {
 }
 
 .main-btn i {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .btn-primary {
