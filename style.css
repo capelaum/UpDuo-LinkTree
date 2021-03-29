@@ -28,6 +28,9 @@ body {
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+
+ 
+
   overflow: hidden;
 
   display: flex;
@@ -40,7 +43,7 @@ body {
   width: 300px;
 }
 
-.btn-container {
+.main-container {
   display: flex;
   flex-direction: column;
   text-align: center;

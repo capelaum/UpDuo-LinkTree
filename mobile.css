@@ -39,12 +39,40 @@
     font-size: 1.8rem;
   }
 
+  .btn-text {
+    font-size: 2rem;
+    margin-left: 10px;
+  }
+
   .info-text {
     margin-top: 20px;
     font-size: 1rem;
   }
 }
 
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 550px) {
+  .logo {
+    width: 150px;
+  }
 
+  .main-btn {
+    font-size: 1rem;
+    width: 150px;
+    padding: 10px;
+
+  }
+
+  .main-btn i {
+    font-size: 1rem;
+  }
+
+  .btn-text {
+    font-size: 1rem;
+    margin-left: 15px;
+  }
+
+  .info-text {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
 }
