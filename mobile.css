@@ -3,7 +3,6 @@
   .main-btn {
     padding: 15px;
     width: 200px;
-  
   }
 
   .main-btn i {
@@ -40,7 +39,7 @@
   }
 
   .btn-text {
-    font-size: 2rem;
+    font-size: 1rem;
     margin-left: 10px;
   }
 
