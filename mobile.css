@@ -49,6 +49,16 @@
   }
 }
 
+@media screen and (max-height: 800px) {
+  .bottom-border {
+    height: 500px;
+  }
+  
+  .bottom-square-1 {
+    bottom: 560px;
+  }
+}
+
 @media screen and (max-height: 550px) {
   .logo {
     width: 150px;
