@@ -1,19 +1,14 @@
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
   .main-btn {
-    padding: 20px;
+    padding: 15px;
     width: 200px;
-    border-radius: 10px;
   
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .main-btn i {
     font-size: 2rem;
   }
-  
 
   .btn-text {
     font-size: 1.5rem;
@@ -26,4 +21,30 @@
     font-size: 1.5rem;
   }
   
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 200px;
+  }
+
+  .main-btn {
+    font-size: 1.5rem;
+    width: 200px;
+    padding: 10px;
+
+  }
+
+  .main-btn i {
+    font-size: 1.8rem;
+  }
+
+  .info-text {
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-height: 800px) {
+
 }
