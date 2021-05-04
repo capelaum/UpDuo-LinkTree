@@ -88,7 +88,7 @@ body {
 }
 
 .btn-primary:hover {
-  opacity: 0.9;
+  filter: brightness(0.95);
 }
 
 .btn-secondary {
@@ -96,7 +96,7 @@ body {
 }
 
 .btn-secondary:hover {
-  opacity: 0.9;
+  filter: brightness(0.95);
 }
 
 .btn-text {
