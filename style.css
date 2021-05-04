@@ -54,19 +54,33 @@ body {
   color: #FFF;
   font-weight: bold;
   margin-bottom: 20px;
-  padding: 20px;
-  width: 300px;
+  padding: 0px 20px;
+  width: 250px;
+  height: 80px;
   border-radius: 20px;
   border: 3px solid #FFF;
   text-decoration: none;
 
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
+  transition: all 0.2s;
 }
 
 .main-btn i {
+  display: block;
+}
+
+.icon-email {
+  font-size: 2.5rem;
+}
+
+.icon-wpp {
   font-size: 3rem;
+}
+
+.icon-spotify {
+  font-size: 2.75rem;
 }
 
 .btn-primary {
