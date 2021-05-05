@@ -16,21 +16,21 @@
   }
 
   .info-text {
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 1.5rem;
   }
-  
+
 }
 
 @media screen and (max-width: 480px) {
   .logo {
-    width: 300px;
+    width: 250px;
   }
 
   .main-btn {
     font-size: 1.5rem;
     width: 200px;
-    padding: 10px;
+    height: 60px;
   }
 
   .main-btn i {
@@ -53,15 +53,15 @@
     width: 20px;
     height: 80px;
   }
-  
+
   .bottom-block-1 {
     bottom: 310px;
   }
-  
+
   .bottom-block-2 {
     bottom: 230px;
   }
-  
+
   .bottom-block-3 {
     bottom: 150px;
   }
@@ -71,12 +71,12 @@
     width: 22px;
     height: 600px;
   }
-  
+
   .bottom-square-1 {
     left: 16.2px;
     bottom: 660px;
   }
-  
+
   .bottom-square-2 {
     left: 16.2px;
     bottom: 60px;
@@ -86,13 +86,12 @@
 @media screen and (max-height: 800px) {
 
   .main-container {
-    margin-top: 20px;
   }
 
   .bottom-border {
     height: 500px;
   }
-  
+
   .bottom-square-1 {
     bottom: 560px;
   }
