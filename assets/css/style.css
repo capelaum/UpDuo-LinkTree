@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&display=swap");
 
 :root {
-  --primary: #13B2B5;
+  --primary: #13b2b5;
   --secondary: #124057;
 }
 
@@ -16,12 +16,11 @@ body {
   height: 100vh;
   width: 100vw;
   color: var(--secondary);
-  font-family: 'Baloo 2', cursive;
-  font-weight: 600;
+  font-family: "Baloo 2", cursive;
 }
 
 .main {
-  background-image: url('assets/bg.png');
+  background-image: url("../bg.png");
   background-position: cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,14 +49,14 @@ body {
 }
 
 .main-btn {
-  color: #FFF;
-  font-weight: bold;
+  color: #fff;
+  font-weight: 500;
   margin-bottom: 20px;
-  padding: 0px 20px;
-  width: 250px;
-  height: 80px;
+  padding: 10px 20px;
+  width: 220px;
+  /* height: 70px; */
   border-radius: 20px;
-  border: 3px solid #FFF;
+  border: 2px solid #fff;
   text-decoration: none;
 
   display: flex;
@@ -75,11 +74,11 @@ body {
 }
 
 .icon-wpp {
-  font-size: 3rem;
+  font-size: 2.75rem;
 }
 
 .icon-spotify {
-  font-size: 2.75rem;
+  font-size: 2.3rem;
 }
 
 .btn-primary {
@@ -99,7 +98,7 @@ body {
 }
 
 .btn-text {
-  font-size: 2rem;
+  font-size: 1.75rem;
   display: inline-block;
   margin-left: 15px;
 }
