@@ -65,6 +65,10 @@ body {
   transition: all 0.2s;
 }
 
+.main-btn:hover {
+  filter: brightness(0.9);
+}
+
 .main-btn i {
   display: block;
 }
@@ -85,16 +89,8 @@ body {
   background-color: var(--primary);
 }
 
-.btn-primary:hover {
-  filter: brightness(0.95);
-}
-
 .btn-secondary {
   background-color: var(--secondary);
-}
-
-.btn-secondary:hover {
-  filter: brightness(0.95);
 }
 
 .btn-text {
